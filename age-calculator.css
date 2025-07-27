@@ -1,0 +1,51 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+#main_contaner{
+    width: 50vw;
+    height: 50vh;
+    margin-top: 10vh;
+    padding-top: 5vh;
+    box-shadow: 0vw 0vh 1vh black;
+    border-radius: 1vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#form{
+    display: flex;
+    align-items: center;
+}
+#form,#birthday,#btn,#result{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#birthday,#btn{
+    width: 20vw;
+    height: 5vh;
+    border-radius: 1vw;
+    outline: none;
+}
+input[type="date"]{
+    padding-left: 0.5vw;
+}
+#btn{
+    width: 15vw;
+    height: 5vh;
+    background-color: rgb(9, 150, 250);
+    color: white;
+    font-size: 1.5vw;
+}
+#result{
+    align-items: center;
+    font-size: 3vw;
+}
